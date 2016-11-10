@@ -1,4 +1,4 @@
-# React-Webpack-Bootstrap Boilerplate
+# React-Webpack-Bootstrap Case & Cabane
 
 ## Features
 - Webpack building system
