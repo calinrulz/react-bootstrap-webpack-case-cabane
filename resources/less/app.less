@@ -1,3 +1,27 @@
-body {
-  padding-top: 70px;
+// Cabane Header Navigation
+.cabane-nav-container {
+  height: 130px;
+}
+
+ul.cabane-nav-links {
+  height: 130px;
+  > li {
+    top: 55px;
+    > a {
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Bootstrap "active" class & ::hover effect override
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%)
+}
+
+// Cabane Main Container
+.cabane-main-container {
+  margin-top: 130px;
+  padding: 20px 0;
 }
