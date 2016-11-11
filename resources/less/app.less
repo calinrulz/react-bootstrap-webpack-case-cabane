@@ -1,6 +1,12 @@
+/*
+** NAVIGATION
+*/
 // Cabane Header Navigation
 .cabane-nav-container {
   height: 130px;
+  .nav-container {
+    position: relative;
+  }
 }
 
 ul.cabane-nav-links {
@@ -9,6 +15,25 @@ ul.cabane-nav-links {
     top: 55px;
     > a {
       text-transform: uppercase;
+    }
+  }
+}
+
+.case-extra-nav-container {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  right: 0;
+  top: 0;
+  ul {
+    list-style: none;
+    float: right;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        color: #888;
+      }
     }
   }
 }
@@ -35,6 +60,9 @@ ul.cabane-nav-links {
   color: white;
 }
 
+/*
+** MAIN CONTENT
+*/
 // Cabane Main Container
 .cabane-main-container {
   margin-top: 130px;

@@ -5,7 +5,7 @@ class HelloMessage extends React.Component {
     return (
       <div className="jumbotron">
         <h1>Hello, {this.props.name}!</h1>
-        <p>Boilerplate is ready to develop!</p>
+        <p>You are ready to develop!</p>
       </div>
     );
   }
