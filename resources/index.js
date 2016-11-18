@@ -9,4 +9,4 @@ require('bootstrap/dist/js/bootstrap');
 require('assets/less/app');
 
 // React app
-require('assets/jsx/HelloWorldApp');
+require('assets/main/MainComponentApp');
