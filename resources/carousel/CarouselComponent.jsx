@@ -7,15 +7,15 @@ class Carousel extends React.Component {
         {/* Wrapper for slides */}
         <div className="carousel-inner" role="listbox">
           <div className="item active">
-            <img src="http://www.planwallpaper.com/static/images/beautiful-sunset-images-196063.jpg" alt="..." />
+            <img src="/img/slider-01.jpg" alt="..." />
             <div className="carousel-caption">
-              ...
+
             </div>
           </div>
           <div className="item">
-            <img src="http://www.planwallpaper.com/static/images/beautiful-sunset-images-196063.jpg" alt="..." />
+            <img src="/img/slider-01.jpg" alt="..." />
             <div className="carousel-caption">
-              ...
+              
             </div>
           </div>
         </div>
