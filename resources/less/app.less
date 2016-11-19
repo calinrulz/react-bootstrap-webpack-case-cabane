@@ -12,6 +12,8 @@ body {
 // Cabane Header Navigation
 .cabane-nav-container {
   height: 110px;
+  font-size: 1.4rem;
+  // Logo
   .nav-container {
     position: relative;
     a.navbar-brand {
@@ -21,19 +23,7 @@ body {
   }
 }
 
-ul.cabane-nav-links {
-  height: 110px;
-  font-size: 1.4rem;
-  > li {
-    top: 55px;
-    > a {
-      padding: 10px;
-      text-transform: uppercase;
-    }
-  }
-}
-
-// Cabane Navigation
+// Extra Navbar
 .case-extra-nav-container {
   display: flex;
   flex-direction: row;
@@ -47,7 +37,7 @@ ul.cabane-nav-links {
   margin-top: 5px;
   right: 0;
   top: 0;
-  font-size: 1.6em;
+  font-size: 0.8em;
   ul {
     flex-grow: 1;
     margin: 0;
@@ -57,10 +47,8 @@ ul.cabane-nav-links {
     li {
       display: inline-block;
       padding: 10px;
-      font-size: 1.2em;
       .glyphicon-right-arrow {
         margin-right: 5px;
-        font-size: 0.8em;
         color: #b5b5b5;
       }
       a {
@@ -89,6 +77,21 @@ ul.cabane-nav-links {
     }
   }
 }
+
+// Main Navigation
+ul.cabane-nav-links {
+  height: 110px;
+  > li {
+    top: 55px;
+    > a {
+      padding: 10px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Cabane Navigation
+
 
 // Bootstrap "active" class override
 .navbar-default .navbar-nav > .open > a,
