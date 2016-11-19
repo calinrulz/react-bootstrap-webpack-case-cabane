@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from '../carousel/CarouselComponent';
+import Features from '../features/FeaturesComponent';
 
 class MainComponent extends React.Component {
   render() {
@@ -10,10 +11,7 @@ class MainComponent extends React.Component {
         </div>
 
         <div className="container">
-          <div className="jumbotron">
-            <h1>Hello, {this.props.name}!</h1>
-            <p>You are ready to develop!</p>
-          </div>
+          <Features />
         </div>
       </div>
     );
