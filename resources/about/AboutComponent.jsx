@@ -25,6 +25,11 @@ class About extends React.Component {
                   <p>Sliders</p>
                   <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
+
+                <li>
+                  <p>Buttons</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
+                </li>
               </ul>
             </div>
 
@@ -42,6 +47,11 @@ class About extends React.Component {
 
                 <li>
                   <p>Icons</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li>
+                  <p>LightBox</p>
                   <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
               </ul>
