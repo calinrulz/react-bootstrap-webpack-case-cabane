@@ -17,7 +17,7 @@ class About extends React.Component {
                 </li>
 
                 <li>
-                  <p>HTML5, CSS3, JS, REACT.JS</p>
+                  <p>Html5, Css3, JavaScript &amp; React.js</p>
                   <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
 
