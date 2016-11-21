@@ -12,7 +12,9 @@ class Features extends React.Component {
             Donec finibus massa quis neque euismod, et blandit nunc malesuada.
             Donec at laoreet eros, ut gravida est. Morbi sit amet pharetra enim.
           </p>
-          <div className="cabane-features-bg"></div>
+          <div className="cabane-features-bg">
+            <img src="/img/features.jpg" alt="" />
+          </div>
         </div>
       </div>
     );
