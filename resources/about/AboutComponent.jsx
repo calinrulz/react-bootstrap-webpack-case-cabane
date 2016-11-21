@@ -1,4 +1,5 @@
 import React from 'react';
+import MoreNews from './MoreNewsComponent';
 
 class About extends React.Component {
   render() {
@@ -12,12 +13,17 @@ class About extends React.Component {
               <ul className="about-features-left">
                 <li>
                   <p>Customer Support</p>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
 
                 <li>
-                  <p>Customer Support</p>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>HTML5, CSS3, JS, REACT.JS</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li>
+                  <p>Sliders</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
               </ul>
             </div>
@@ -25,13 +31,18 @@ class About extends React.Component {
             <div className="col-md-6 about-features-right-container">
               <ul className="about-features-right">
                 <li>
-                  <p>Customer Support</p>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>Google Fonts</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
 
                 <li>
-                  <p>Customer Support</p>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>Colors</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li>
+                  <p>Icons</p>
+                  <p className="small-feature-text">Lorem ipsum dolor sit amet.</p>
                 </li>
               </ul>
             </div>
@@ -39,7 +50,11 @@ class About extends React.Component {
         </div>
 
         <div className="col-xs-6 col-md-4 about-more">
+          <h3>si mai multe...</h3>
 
+          <div className="about-more-panels-container">
+            <MoreNews />
+          </div>
         </div>
       </div>
     );
