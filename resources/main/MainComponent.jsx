@@ -1,7 +1,8 @@
 import React from 'react';
-import Carousel from '../carousel/CarouselComponent';
-import Features from '../features/FeaturesComponent';
-import About from '../about/AboutComponent';
+import Carousel from '../home/carousel/CarouselComponent';
+import Features from '../home/features/FeaturesComponent';
+import About from '../home/about/AboutComponent';
+import PortfolioShow from '../home/portfolio/PortfolioComponent';
 
 class MainComponent extends React.Component {
   render() {
@@ -17,6 +18,10 @@ class MainComponent extends React.Component {
 
         <div className="container">
           <About />
+        </div>
+
+        <div className="container">
+          <PortfolioShow />
         </div>
       </div>
     );

@@ -7,6 +7,7 @@ class MoreNews extends React.Component {
         <div className="panel panel-default">
           <div className="panel-heading" role="tab" id="headingOne">
             <h4 className="panel-title">
+              <img src="/img/home-icons/idea.svg" width="18" alt="Idea Lightbulb Icon" />
               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Collapsible Group Item #1
               </a>
@@ -21,6 +22,7 @@ class MoreNews extends React.Component {
         <div className="panel panel-default">
           <div className="panel-heading" role="tab" id="headingTwo">
             <h4 className="panel-title">
+              <img src="/img/home-icons/bell.svg" width="18" alt="Bell Icon" />
               <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Collapsible Group Item #2
               </a>
@@ -35,6 +37,7 @@ class MoreNews extends React.Component {
         <div className="panel panel-default">
           <div className="panel-heading" role="tab" id="headingThree">
             <h4 className="panel-title">
+              <img src="/img/home-icons/laptop.svg" width="18" alt="Laptop Icon" />
               <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Collapsible Group Item #3
               </a>
