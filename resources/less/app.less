@@ -185,19 +185,23 @@ ul.cabane-nav-links {
     padding: 2rem 0 0;
     font-size: 2em;
     ul {
-      // list-style-image: url();
+      list-style: none;
       line-height: 1;
-      // margin: 0;
-      // padding: 0;
       li {
+        position: relative;
         padding: 5px 0;
         color: #f15c22;
-        // padding-left: 2em;
-        // text-indent: -0.7em;
-        // &:before {
-        //   content: "• ";
-        //   color: #f15c22;
-        // }
+        text-indent: 10px;
+        &:before {
+          content: "";
+          display: inline-block;
+          position: absolute;
+          top: 10px;
+          left: -38px;
+          width: 36px;
+          height: 36px;
+          background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzYgMzYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDM2IDM2IiB4bWw6c3BhY2U9InByZXNlcnZlIj48Zz48Y2lyY2xlIGZpbGw9IiNGMTVDMjIiIGN4PSIxOCIgY3k9IjE4IiByPSIxOCIvPjwvZz48L3N2Zz4=');
+        }
       }
       .small-feature-text {
         font-size: 0.8em;
