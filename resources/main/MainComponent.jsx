@@ -20,9 +20,7 @@ class MainComponent extends React.Component {
           <About />
         </div>
 
-        <div className="container">
-          <PortfolioShow />
-        </div>
+        <PortfolioShow />
       </div>
     );
   }
