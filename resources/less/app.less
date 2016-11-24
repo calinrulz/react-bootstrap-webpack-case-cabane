@@ -261,12 +261,23 @@ ul.cabane-nav-links {
     background-image: none;
     width: 5%;
     height: 100%;
-    line-height: 13;
+    line-height: 10;
   }
   .carousel-control.left {
     left: -50px;
   }
   .carousel-control.right {
     right: -50px;
+  }
+}
+
+/*
+** MEDIA QUERIES
+*/
+@media screen and (min-width: 768px) {
+  .cabane-portfolio-carousel-component{
+    .carousel-indicators {
+      bottom: -15px;
+    }
   }
 }
