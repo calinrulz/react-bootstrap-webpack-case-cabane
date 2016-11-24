@@ -3,6 +3,7 @@ import Carousel from '../home/carousel/CarouselComponent';
 import Features from '../home/features/FeaturesComponent';
 import About from '../home/about/AboutComponent';
 import PortfolioShow from '../home/portfolio/PortfolioComponent';
+import Newsfeed from '../home/newsfeed/NewsfeedComponent';
 
 class MainComponent extends React.Component {
   render() {
@@ -21,6 +22,8 @@ class MainComponent extends React.Component {
         </div>
 
         <PortfolioShow />
+
+        <Newsfeed />
       </div>
     );
   }
