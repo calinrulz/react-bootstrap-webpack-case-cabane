@@ -44,8 +44,12 @@ class PortfolioCarousel extends React.Component {
                   </div>
                 </div>
 
-                <a className="left carousel-control" href="#CabanePortCarousel" data-slide="prev">‹</a>
-                <a className="right carousel-control" href="#CabanePortCarousel" data-slide="next">›</a>
+                <a className="left carousel-control" href="#CabanePortCarousel" data-slide="prev">
+                  <img src="/img/home-icons/previous.svg" alt="previous-icon" width="36" />
+                </a>
+                <a className="right carousel-control" href="#CabanePortCarousel" data-slide="next">
+                  <img src="/img/home-icons/next.svg" alt="next-icon" width="36" />
+                </a>
               </div>
             </div>
           </div>
