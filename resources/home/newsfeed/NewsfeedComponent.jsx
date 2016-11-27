@@ -1,4 +1,5 @@
 import React from 'react';
+import EachNews from './NewsComponent';
 
 class Newsfeed extends React.Component {
   render() {
@@ -6,7 +7,22 @@ class Newsfeed extends React.Component {
       <div className="container-fluid cabane-home-newsfeed-container">
         <div className="container">
           <div className="row">
-            <h3>Despre <span className="bold-text">Noi</span></h3>
+            <div className="col-md-6">
+              <h3>Ultimele <span className="bold-text">Noutati</span></h3>
+
+              <div className="row">
+                <div className="latest-newsfeed-container">
+                  {/* TODO: Create dynamic displays */}
+                  <EachNews />
+
+                  <EachNews />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <h3>Ce spun <span className="bold-text">Clientii</span></h3>
+            </div>
           </div>
         </div>
       </div>

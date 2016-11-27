@@ -287,8 +287,65 @@ ul.cabane-nav-links {
   h3 {
     font-size: 2.6em;
     font-weight: 300;
+    margin-bottom: 30px;
     span.bold-text {
       font-weight: 700;
+    }
+  }
+  .latest-newsfeed-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .latest-newsfeed-date-container {
+    position: relative;
+    padding: 0 30px;
+    .row {
+      height: 7rem;
+    }
+    .date-container {
+      position: absolute;
+      display: block;
+      text-align: center;
+      .day-container {
+        display: block;
+        font-size: 1.4em;
+        font-weight: 900;
+        padding: 1rem;
+        background-color: white;
+      }
+      .month-container {
+        display: block;
+        font-weight: 300;
+        color: white;
+        padding: 0.4rem 1rem;
+        background-color: #f15c22;
+      }
+    }
+    .text-container-top {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 22%;
+      width: 77%;
+      height: 100%;
+      font-size: 1.6em;
+      text-align: justify;
+      a {
+        position: relative;
+        display: block;
+        max-height: 100%;
+        color: #f15c22;
+        line-height: 1.4;
+        overflow: hidden;
+      }
+    }
+    .text-container-bottom {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-size: 1.2em;
+      text-align: justify;
     }
   }
 }
