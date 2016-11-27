@@ -18,6 +18,15 @@ class Newsfeed extends React.Component {
                   <EachNews />
                 </div>
               </div>
+
+              <div className="read-more-button">
+                <form className="form-inline">
+                  <div className="form-group">
+                    <input type="text" className="form-control" id="subscribe" placeholder="Inscrie-te" />
+                  </div>
+                  <button type="submit" className="btn btn-success btn-sm">Inscrie-te</button>
+                </form>
+              </div>
             </div>
 
             <div className="col-md-6">
