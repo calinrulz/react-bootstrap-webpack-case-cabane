@@ -1,5 +1,6 @@
 import React from 'react';
 import EachNews from './NewsComponent';
+import ClientFeed from './ClientComponent';
 
 class Newsfeed extends React.Component {
   render() {
@@ -31,6 +32,12 @@ class Newsfeed extends React.Component {
 
             <div className="col-md-6">
               <h3>Ce spun <span className="bold-text">Clientii</span></h3>
+
+              <div className="row">
+                <div className="col-md-12 client-feedback-container">
+                  <ClientFeed />
+                </div>
+              </div>
             </div>
           </div>
         </div>
