@@ -4,6 +4,7 @@ import Features from '../home/features/FeaturesComponent';
 import About from '../home/about/AboutComponent';
 import PortfolioShow from '../home/portfolio/PortfolioComponent';
 import Newsfeed from '../home/newsfeed/NewsfeedComponent';
+import Footer from '../footer/FooterComponent';
 
 class MainComponent extends React.Component {
   render() {
@@ -24,6 +25,8 @@ class MainComponent extends React.Component {
         <PortfolioShow />
 
         <Newsfeed />
+
+        <Footer />
       </div>
     );
   }
