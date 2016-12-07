@@ -77,8 +77,8 @@ class Footer extends React.Component {
               <span className="copywrite">&copy; 2017 by creativecalin.ro All Rights Reserved.</span>
 
               <span className="useful-links">
-                <a href="#">Despre Noi | </a>
-                <a href="#">Sitemap | </a>
+                <a href="#">Despre Noi</a><span> | </span>
+                <a href="#">Sitemap</a><span> | </span>
                 <a href="#">Contact</a>
               </span>
             </div>
