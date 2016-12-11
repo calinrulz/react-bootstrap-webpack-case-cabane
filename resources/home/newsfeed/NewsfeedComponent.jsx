@@ -1,6 +1,7 @@
 import React from 'react';
 import EachNews from './NewsComponent';
 import ClientFeed from './ClientComponent';
+import FetchEachComponent from './FetchEachNews';
 
 class Newsfeed extends React.Component {
   render() {
@@ -17,6 +18,8 @@ class Newsfeed extends React.Component {
                   <EachNews />
 
                   <EachNews />
+
+                  <FetchEachComponent username="calinrulz" />
                 </div>
               </div>
 

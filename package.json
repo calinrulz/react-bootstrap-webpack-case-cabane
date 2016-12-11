@@ -8,6 +8,7 @@
   "url": "https://github.com/calinrulz/react-bootstrap-webpack-case-cabane.git",
   "license": "MIT",
   "devDependencies": {
+    "axios": "^0.15.3",
     "babel-core": "^4.3.0",
     "babel-eslint": "^4.0.10",
     "babel-loader": "^5",
