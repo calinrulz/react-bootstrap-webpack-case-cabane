@@ -19,6 +19,7 @@ class Newsfeed extends React.Component {
 
                   <EachNews />
 
+                  {/* TODO: After figure it out with dynamic display of JSON data - REMOVE THIS */}
                   <FetchEachComponent username="calinrulz" />
                 </div>
               </div>

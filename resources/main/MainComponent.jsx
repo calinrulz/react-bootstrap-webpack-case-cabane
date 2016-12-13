@@ -1,4 +1,5 @@
 import React from 'react';
+import NavigationComponent from '../navigation/MainNavigation';
 import Carousel from '../home/carousel/CarouselComponent';
 import Features from '../home/features/FeaturesComponent';
 import About from '../home/about/AboutComponent';
@@ -10,6 +11,8 @@ class MainComponent extends React.Component {
   render() {
     return (
       <div className="cabane-main-container">
+        <NavigationComponent />
+
         <div className="cabane-carousel-container">
           <Carousel />
         </div>
