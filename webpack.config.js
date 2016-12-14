@@ -35,6 +35,7 @@ if (production) {
 }
 
 var webpackConfig = {
+  devtool: 'eval-source-map',
   entry: {
     bundle: bundle,
     vendor: ['react']
