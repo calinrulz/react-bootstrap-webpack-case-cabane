@@ -1,0 +1,106 @@
+/*
+** FOOTER
+*/
+// Footer
+.cabane-footer-container {
+  .container-fluid {
+    background-color: black;
+    font-size: 1.8em;
+    color: #777;
+    .footer-sections-container {
+      padding: 2rem 0;
+      h5 {
+        color: white;
+        font-weight: 300;
+      }
+    }
+    .form-group,
+    .input-group {
+      width: 100%;
+    }
+    .footer-news-contact,
+    .form-control,
+    .input-group-addon {
+      height: 25px;
+      font-size: 1em;
+    }
+    .input-group-addon {
+      padding: 0;
+      a {
+        padding: 6px 12px;
+        text-decoration: none;
+      }
+    }
+    .contact-section {
+      p {
+        margin-left: 15px;
+      }
+      .case-footer-glyphicon {
+        margin-left: -15px;
+        margin-right: 5px;
+      }
+    }
+    .footer-social-buttons {
+      .sm-global-btn {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        padding: 0;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 1.2em;
+        font-weight: 300;
+        line-height: 2.2em;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+      }
+      .facebook-btn {
+        background-color: #4060A5;
+        &:before {
+          font-family: "FontAwesome";
+          content: "\f09a";
+        }
+      }
+      .twitter-btn {
+        background-color: #00ABE3;
+        &:before {
+          font-family: "FontAwesome";
+          content: "\f099";
+        }
+      }
+      .googleplus-btn {
+        background-color: #E64522;
+        &:before {
+          font-family: "FontAwesome";
+          content: "\f0d5";
+        }
+      }
+    }
+  }
+  .footer-copywrite-container {
+    padding: 1rem 0;
+    font-size: 1.6em;
+    .footer-info {
+      display: inline-block;
+      width: 100%;
+      .footer-logo {
+        height: 30px;
+        margin-left: 30px;
+      }
+      .copywrite {
+        margin-left: 5%;
+        line-height: 4em;
+        color: #f15c22;
+      }
+      .useful-links {
+        float: right;
+        line-height: 4em;
+      }
+    }
+  }
+}

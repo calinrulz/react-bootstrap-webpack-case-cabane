@@ -1,0 +1,104 @@
+/*
+** HEADER with NAVIGATION
+*/
+// Cabane Header Navigation
+.cabane-nav-container {
+  height: 110px;
+  font-size: 2em;
+  // Logo
+  .nav-container {
+    position: relative;
+    a.navbar-brand {
+      height: 100%;
+      padding: 15px 0;
+    }
+  }
+}
+
+// Extra Navbar
+.case-extra-nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  width: 80%;
+  height: 50px;
+  margin-top: 5px;
+  right: 0;
+  top: 0;
+  font-size: 0.8em;
+  ul {
+    flex-grow: 1;
+    margin: 0;
+    text-align: right;
+    list-style: none;
+    color: #888;
+    li {
+      display: inline-block;
+      padding: 10px;
+      .glyphicon-right-arrow {
+        margin-right: 5px;
+        color: #b5b5b5;
+      }
+      a {
+        color: #888;
+      }
+    }
+  }
+  .case-navbar-search {
+    .form-group {
+      margin: 0 0 0 15px;
+    }
+    .form-control {
+      border-radius: 20px;
+      height: 30px;
+      font-size: 1em;
+      &:focus {
+        border-color: #ccc;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      }
+    }
+    .case-glyphicon-search {
+      position: absolute;
+      top: 19px;
+      right: 15px;
+      color: #b5b5b5;
+    }
+  }
+}
+
+// Main Navigation
+ul.cabane-nav-links {
+  height: 110px;
+  > li {
+    top: 55px;
+    > a {
+      padding: 10px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Bootstrap "active" class override
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 5px;
+  background-color: #f15c22;
+  background-image: none;
+  color: white;
+}
+
+// Bootstrap ::hover effect on "active" class & other nav links override
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  border-radius: 5px;
+  // background-image: linear-gradient(to bottom, #f15c22 0%, #f7901e 100%)
+  background-color: #f15c22;
+  color: white;
+}

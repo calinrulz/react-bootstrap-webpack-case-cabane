@@ -1,0 +1,14 @@
+/*
+** SLIDER
+*/
+// Cabane Slider Container
+.cabane-carousel-container {
+  margin-top: 110px;
+  .cabane-main-slider {
+    .item {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
