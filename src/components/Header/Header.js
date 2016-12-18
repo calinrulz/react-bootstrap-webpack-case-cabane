@@ -1,5 +1,5 @@
 import React from 'react';
-// import { IndexLink, Link } from 'react-router'
+import { IndexLink, Link } from 'react-router';
 
 // Assets
 import AppLogo from '../../assets/logo.png';
@@ -18,16 +18,16 @@ export const Header = () => (
             <span className="icon-bar"></span>
         </button>
 
-        <a className="navbar-brand" href="#">
+        <IndexLink to="/" className="navbar-brand">
           <img src={AppLogo} width="60" alt="React Case &amp; Cabane" />
-        </a>
+        </IndexLink>
       </div>
 
       <div className="case-extra-nav-container">
         <ul className="extra-links">
           <li className="">
             <span className="glyphicon glyphicon-chevron-right glyphicon-right-arrow"></span>
-            <a href="#">Despre Noi</a>
+            <a href="">Despre Noi</a>
           </li>
 
           <li className="">
@@ -51,8 +51,18 @@ export const Header = () => (
 
       <div id="navbar" className="collapse navbar-collapse">
         <ul className="nav navbar-nav navbar-right cabane-nav-links">
-          <li className="active"><a href="#">Acasa</a></li>
-          <li className=""><a href="#">Despre Noi</a></li>
+          <li className="active">
+            <IndexLink to="/">
+              Acasa
+            </IndexLink>
+          </li>
+
+          <li className="">
+            <Link to="/about" activeClassName="">
+              Despre Noi
+            </Link>
+          </li>
+
           <li className="dropdown">
             <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modele <span className="caret"></span></a>
 
