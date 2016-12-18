@@ -1,5 +1,6 @@
 import React from 'react';
-// import DuckImage from '../assets/Duck.jpg';
+
+// Component Styles
 import './HomeView.scss';
 
 import Carousel from '../components/carousel/CarouselComponent';
