@@ -16,7 +16,7 @@ export const CoreLayout = ({ children }) => (
   </div>
 )
 
-CoreLayout.propTypes = {
+CoreLayout.PropTypes = {
   children : React.PropTypes.element.isRequired
 }
 

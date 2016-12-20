@@ -58,7 +58,7 @@ export const Header = () => (
           </li>
 
           <li className="">
-            <Link to="/about" activeClassName="">
+            <Link to="/about">
               Despre Noi
             </Link>
           </li>

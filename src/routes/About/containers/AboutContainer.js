@@ -1,4 +1,8 @@
 import { connect } from 'react-redux';
 import AboutView from '../components/AboutView';
 
-export default connect(AboutView);
+const mapStateToProps = (state) => ({
+  counter : state.counter
+})
+
+export default connect(mapStateToProps)(AboutView);   // ! connect needs (someFunction) and then (AboutView) !
