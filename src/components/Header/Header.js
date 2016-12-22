@@ -27,12 +27,12 @@ export const Header = () => (
         <ul className="extra-links">
           <li className="">
             <span className="glyphicon glyphicon-chevron-right glyphicon-right-arrow"></span>
-            <a href="">Despre Noi</a>
+            <Link to="/about">Despre Noi</Link>
           </li>
 
           <li className="">
             <span className="glyphicon glyphicon-chevron-right glyphicon-right-arrow"></span>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
 
           <li className="case-nav-phone">

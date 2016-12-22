@@ -1,4 +1,5 @@
 import React from 'react';
+import { IndexLink, Link } from 'react-router';
 
 // Assets
 import AppLogo from '../../assets/logo.png';
@@ -81,9 +82,10 @@ export const Footer = () => (
           <span className="copywrite">&copy; 2017 by creativecalin.ro All Rights Reserved.</span>
 
           <span className="useful-links">
-            <a href="#">Despre Noi</a><span> | </span>
-            <a href="#">Sitemap</a><span> | </span>
-            <a href="#">Contact</a>
+            <IndexLink to="/">Acasa</IndexLink><span> | </span>
+            <Link to="/about">Despre Noi</Link><span> | </span>
+            <Link to="/sitemap">Sitemap</Link><span> | </span>
+            <Link to="/contact">Contact</Link>
           </span>
         </div>
       </div>
