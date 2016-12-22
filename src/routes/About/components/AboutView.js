@@ -4,7 +4,9 @@ import React from 'react';
 import './AboutView.scss';
 
 export const AboutView = () => (
-  <div>About Component</div>
+  <div className="cabane-content-container">
+    About Us
+  </div>
 )
 
 export default AboutView;
