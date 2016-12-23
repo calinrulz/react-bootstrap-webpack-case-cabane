@@ -7,7 +7,7 @@ import FetchEachComponent from './FetchEachNews';
 import './NewsfeedComponent.scss';
 
 class Newsfeed extends React.Component {
-  render() {
+  render () {
     return (
       <div className="container-fluid cabane-home-newsfeed-container">
         <div className="container">

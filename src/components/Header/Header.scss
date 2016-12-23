@@ -9,8 +9,8 @@
   .nav-container {
     position: relative;
     a.navbar-brand {
+      width: 100%;
       height: 100%;
-      padding: 15px 0;
     }
   }
 }
@@ -27,6 +27,7 @@
   width: 80%;
   height: 50px;
   margin-top: 5px;
+  padding-right: 15px;
   right: 0;
   top: 0;
   font-size: 0.8em;
@@ -64,7 +65,7 @@
     .case-glyphicon-search {
       position: absolute;
       top: 19px;
-      right: 15px;
+      right: 25px;
       color: #b5b5b5;
     }
   }
@@ -73,6 +74,7 @@
 // Main Navigation
 ul.cabane-nav-links {
   height: 110px;
+  margin-right: -10px;
   > li {
     top: 55px;
     > a {

@@ -5,7 +5,7 @@ import MoreNews from './MoreNewsComponent';
 import './AboutComponent.scss';
 
 class About extends React.Component {
-  render() {
+  render () {
     return (
       <div className="container">
         <div className="row case-about-container">

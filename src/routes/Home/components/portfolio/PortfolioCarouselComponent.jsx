@@ -5,7 +5,7 @@ import PreviousIcon from '../../../../assets/home-icons/previous.svg';
 import NextIcon from '../../../../assets/home-icons/next.svg';
 
 class PortfolioCarousel extends React.Component {
-  render() {
+  render () {
     return (
       <div className="container">
         <div className="row">

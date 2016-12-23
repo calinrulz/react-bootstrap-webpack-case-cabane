@@ -1,7 +1,7 @@
 import React from 'react';
 
 class ClientFeed extends React.Component {
-  render() {
+  render () {
     return (
       <div className="carousel slide" data-ride="carousel" id="quote-carousel">
         <ol className="carousel-indicators">

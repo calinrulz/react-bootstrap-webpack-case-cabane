@@ -7,7 +7,7 @@ import HomeFeaturesImg from '../../../../assets/features.jpg';
 import './FeaturesComponent.scss';
 
 class Features extends React.Component {
-  render() {
+  render () {
     return (
       <div className="container">
         <div className="row cabane-features-container">

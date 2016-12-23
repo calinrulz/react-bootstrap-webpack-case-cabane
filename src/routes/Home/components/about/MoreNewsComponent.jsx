@@ -6,7 +6,7 @@ import BellIcon from '../../../../assets/home-icons/bell.svg';
 import LaptopIcon from '../../../../assets/home-icons/laptop.svg';
 
 class MoreNews extends React.Component {
-  render() {
+  render () {
     return (
       <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         <div className="panel panel-default">

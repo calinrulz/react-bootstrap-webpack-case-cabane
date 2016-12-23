@@ -1,7 +1,7 @@
 import React from 'react';
 
 class EachNews extends React.Component {
-  render() {
+  render () {
     return (
       <div className="col-md-6 latest-newsfeed-date-container">
         <div className="row">
