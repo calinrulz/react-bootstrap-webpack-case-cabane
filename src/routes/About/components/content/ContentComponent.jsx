@@ -1,6 +1,9 @@
 import React from 'react';
 import SideinfoComponent from '../sideinfo/SideinfoComponent';
 
+// Assets
+import AboutHistoryImg from '../../../../assets/history-thumb-left.png';
+
 // Component Styles
 import './ContentComponent.scss';
 
@@ -67,8 +70,48 @@ class ContentComponent extends React.Component {
 
           <div className="row about-us-history-section">
             <div className="col-md-12">
-              <ul>
-                
+              <ul className="about-history-list">
+                <li className="">
+                  <div className="history-image">
+                    <img src={AboutHistoryImg} alt="" />
+                  </div>
+
+                  <div className="history-featured-box">
+                    <div className="boxed-content">
+                      <h4 className="history-year"><strong>2016</strong></h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur pellentesque neque eget diam posuere porta.
+                        Quisque ut nulla at nunc vehicula lacinia.
+                        Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta.
+                        Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.
+                        Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta.
+                        Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li className="">
+                  <div className="history-image">
+                    <img src={AboutHistoryImg} alt="" />
+                  </div>
+
+                  <div className="history-featured-box">
+                    <div className="boxed-content">
+                      <h4 className="history-year"><strong>2015</strong></h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur pellentesque neque eget diam posuere porta.
+                        Quisque ut nulla at nunc vehicula lacinia.
+                        Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta.
+                        Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.
+                        Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta.
+                        Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus.
+                      </p>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>

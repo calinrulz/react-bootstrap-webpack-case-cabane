@@ -36,6 +36,39 @@
   }
   // History Section
   .about-us-history-section {
-    
+    .about-history-list {
+      list-style: none;
+      -webkit-padding-start: 0;
+      li {
+        margin: 2.5rem 0;
+        clear: both;
+        .history-image {
+          width: 227px;
+          height: 160px;
+          margin: 0 0 3rem;
+          float: left;
+        }
+        .history-featured-box {
+          margin: 2rem 0 5rem 22.7rem;
+          min-height: 115px;
+          text-align: left;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          box-shadow: 0 -3px #f15c22;
+          .boxed-content {
+            padding: 3rem 3rem 0;
+            .history-year {
+              margin: 0 0 -27px 0;
+              color: #f15c22;
+            }
+            p {
+              margin: 0.5rem 0 3rem 5.5rem;
+              font-size: 1.4em;
+            }
+          }
+        }
+      }
+    }
   }
 }
