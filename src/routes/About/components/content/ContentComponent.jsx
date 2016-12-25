@@ -1,4 +1,5 @@
 import React from 'react';
+import SideinfoComponent from '../sideinfo/SideinfoComponent';
 
 // Component Styles
 import './ContentComponent.scss';
@@ -48,13 +49,27 @@ class ContentComponent extends React.Component {
             </div>
 
             <div className="col-md-4">
-
+              <SideinfoComponent />
             </div>
           </div>
 
           <div className="row">
             <div className="col-md-12">
               <hr className="tall" />
+            </div>
+          </div>
+
+          <div className="row about-us-section">
+            <div className="col-md-12">
+              <h3><span className="bold-text">Istoria</span> noastra</h3>
+            </div>
+          </div>
+
+          <div className="row about-us-history-section">
+            <div className="col-md-12">
+              <ul>
+                
+              </ul>
             </div>
           </div>
         </div>
