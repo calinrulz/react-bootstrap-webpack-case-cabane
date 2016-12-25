@@ -3,11 +3,13 @@
 */
 // Cabane Header Navigation
 .cabane-nav-container {
+  width: 100%;
   height: 110px;
   font-size: 2em;
   // Logo
   .nav-container {
     position: relative;
+    // width: 100%;
     a.navbar-brand {
       width: 100%;
       height: 100%;
@@ -27,7 +29,7 @@
   width: 80%;
   height: 50px;
   margin-top: 5px;
-  padding-right: 15px;
+  margin-right: 15px;
   right: 0;
   top: 0;
   font-size: 0.8em;
@@ -64,8 +66,8 @@
     }
     .case-glyphicon-search {
       position: absolute;
-      top: 19px;
-      right: 25px;
+      top: 20px;
+      right: 15px;
       color: #b5b5b5;
     }
   }
