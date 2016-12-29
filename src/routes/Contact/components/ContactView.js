@@ -4,13 +4,13 @@ import BreadcrumbsComponent from '../../../components/Breadcrumbs/BreadcrumbsCom
 import ContentComponent from './content/ContentComponent';
 
 // Component Styles
-import './AboutView.scss';
+import './ContactView.scss';
 
-export const AboutView = () => (
+export const ContactView = () => (
   <div className="cabane-content-container">
-    <BreadcrumbsComponent breadcrumbName="About Us" />
+    <BreadcrumbsComponent breadcrumbName="Contact" />
     <ContentComponent />
   </div>
 )
 
-export default AboutView;
+export default ContactView;

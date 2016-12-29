@@ -4,7 +4,7 @@ import React from 'react';
 import './BreadcrumbsComponent.scss';
 
 class BreadcrumbsComponent extends React.Component {
-  render () {
+  render (props) {
     return (
       <div className="cabane-breadcrumbs-container">
         <div className="container">
@@ -13,7 +13,7 @@ class BreadcrumbsComponent extends React.Component {
               <div className="breadcrumbs-links">
                 <ol className="breadcrumb">
                   <li className="non-active-links"><a href="#">Home</a></li>
-                  <li className="active">Despre Noi</li>
+                  <li className="active">{ this.props.breadcrumbName }</li>
                 </ol>
               </div>
             </div>
@@ -22,8 +22,7 @@ class BreadcrumbsComponent extends React.Component {
           <div className="row">
             <div className="col-md-12">
               <div className="breadcrumbs-page-name">
-                {/* TODO: Add dynamic page names */}
-                <h3>Despre Noi</h3>
+                <h3>{ this.props.breadcrumbName }</h3>
               </div>
             </div>
           </div>

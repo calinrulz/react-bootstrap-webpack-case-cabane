@@ -76,7 +76,11 @@ export const Header = () => (
           </li>
           <li className=""><a href="#">Portofoliu</a></li>
           <li className=""><a href="#">Produse</a></li>
-          <li className=""><a href="#">Contact</a></li>
+          <li className="">
+            <Link to="/contact">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

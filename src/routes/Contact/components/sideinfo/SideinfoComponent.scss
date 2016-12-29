@@ -1,0 +1,39 @@
+.featured-box-container {
+  height: 360px;
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 -3px #f15c22;
+  .boxed-content {
+    padding: 3rem;
+    height: 100%;
+    h4 {
+      text-transform: uppercase;
+      text-align: center;
+      color: #f15c22;
+    }
+    .thumbnail-gallery {
+      list-style: none;
+      margin: 10px 0;
+      padding: 0;
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 10px 10px 0;
+        padding: 0;
+        .thumbnail-image {
+          display: block;
+          width: 95px;    // remove after populating
+          height: 95px;   // remove after populating
+          padding: 4px;
+          margin-bottom: 2rem;
+          line-height: 1.5;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          transition: border .2s ease-in-out;
+        }
+      }
+    }
+  }
+}
