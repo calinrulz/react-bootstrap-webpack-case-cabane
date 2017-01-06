@@ -1,73 +1,50 @@
-.cabane-about-container {
+.cabane-contact-container {
   padding: 3rem 0;
   font-size: 1.6em;
-  // Few Words Section
   h3 {
+    color: #f15c22;
     font-size: 2.6em;
     font-weight: 200;
-    .animation-text {
-      padding: 0.8rem;
+    .bold-text {
       font-weight: 700;
-      color: white;
-      background-color: #f15c22;
     }
   }
+  p {
+    font-size: 1.4em;
+  }
+  // Contact Form Section
+  .btn-send {
+    background-color: #f15c22;
+    color: white;
+  }
+  // Right Side
   hr.tall {
     margin: 3rem 0;
-    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    background-image: linear-gradient(90deg, transparent, #dbdbdb, transparent);
     border: 0;
     height: 1px;
   }
-  // About Us Section
-  .about-us-section {
-    h3 {
-      margin: 0 0 3rem;
-      color: #f15c22;
-      .bold-text {
-        font-weight: 700;
-      }
-    }
-    .about-us-text {
-      font-size: 1.4em;
-      p {
-        margin-top: 3rem;
-      }
-    }
-  }
-  // History Section
-  .about-us-history-section {
-    .about-history-list {
+  .get-in-touch-02 {
+    ul {
       list-style: none;
-      -webkit-padding-start: 0;
+      font-size: 1.4em;
+      padding: 0;
       li {
-        margin: 2.5rem 0;
-        clear: both;
-        .history-image {
-          width: 227px;
-          height: 160px;
-          margin: 0 0 3rem;
-          float: left;
-        }
-        .history-featured-box {
-          margin: 2rem 0 5rem 22.7rem;
-          min-height: 115px;
-          text-align: left;
-          box-sizing: border-box;
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          box-shadow: 0 -3px #f15c22;
-          .boxed-content {
-            padding: 3rem 3rem 0;
-            .history-year {
-              margin: 0 0 -27px 0;
-              color: #f15c22;
-            }
-            p {
-              margin: 0.5rem 0 3rem 5.5rem;
-              font-size: 1.4em;
-            }
-          }
-        }
+        position: relative;
+        padding-left: 3rem;
+        line-height: 3.6rem;
+      }
+      i.fa {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        background-color: #f15c22;
+        color: white;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        padding: 5px;
       }
     }
   }
