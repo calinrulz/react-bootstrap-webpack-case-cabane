@@ -27,12 +27,12 @@ export const Header = () => (
         <ul className="extra-links">
           <li className="">
             <span className="glyphicon glyphicon-chevron-right glyphicon-right-arrow"></span>
-            <Link to="/about">Despre Noi</Link>
+            <Link to="/about" activeClassName="active">Despre Noi</Link>
           </li>
 
           <li className="">
             <span className="glyphicon glyphicon-chevron-right glyphicon-right-arrow"></span>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" activeClassName="active">Contact</Link>
           </li>
 
           <li className="case-nav-phone">
@@ -51,14 +51,14 @@ export const Header = () => (
 
       <div id="navbar" className="collapse navbar-collapse">
         <ul className="nav navbar-nav navbar-right cabane-nav-links">
-          <li className="active">
-            <IndexLink to="/">
+          <li>
+            <IndexLink to="/" activeClassName="active">
               Acasa
             </IndexLink>
           </li>
 
-          <li className="">
-            <Link to="/about">
+          <li>
+            <Link to="/about" activeClassName="active">
               Despre Noi
             </Link>
           </li>
@@ -74,10 +74,10 @@ export const Header = () => (
               <li><a href="#">Separated link</a></li>
             </ul>
           </li>
-          <li className=""><a href="#">Portofoliu</a></li>
-          <li className=""><a href="#">Produse</a></li>
-          <li className="">
-            <Link to="/contact">
+          <li><a href="#">Portofoliu</a></li>
+          <li><a href="#">Produse</a></li>
+          <li>
+            <Link to="/contact" activeClassName="active">
               Contact
             </Link>
           </li>

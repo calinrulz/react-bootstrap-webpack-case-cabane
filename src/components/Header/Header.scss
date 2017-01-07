@@ -88,8 +88,8 @@ ul.cabane-nav-links {
 
 // Bootstrap "active" class override
 .navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .active > a {
-  border-radius: 5px;
+.navbar-default .navbar-nav .active {
+  border-radius: 3px;
   background-color: #f15c22;
   background-image: none;
   color: white;
