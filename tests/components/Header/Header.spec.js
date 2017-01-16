@@ -10,25 +10,27 @@ describe('(Component) Header', () => {
     _wrapper = shallow(<Header />)
   })
 
-  it('Renders a welcome message', () => {
-    const welcome = _wrapper.find('h1')
-    expect(welcome).to.exist
-    expect(welcome.text()).to.match(/React Redux Starter Kit/)
-  })
-
   describe('Navigation links...', () => {
-    it('Should render a Link to Home route', () => {
+    it('Should render a Link to Acasa route', () => {
       expect(_wrapper.contains(
-        <IndexLink activeClassName='route--active' to='/'>
-          Home
+        <IndexLink activeClassName='active' to='/'>
+          Acasa
         </IndexLink>
       )).to.be.true
     })
 
-    it('Should render a Link to Counter route', () => {
+    it('Should render a Link to Despre Noi route', () => {
       expect(_wrapper.contains(
-        <Link activeClassName='route--active' to='/counter'>
-          Counter
+        <Link activeClassName='active' to='/about'>
+          Despre Noi
+        </Link>
+      )).to.be.true
+    })
+
+    it('Should render a Link to Contact route', () => {
+      expect(_wrapper.contains(
+        <Link activeClassName='active' to='/contact'>
+          Contact
         </Link>
       )).to.be.true
     })

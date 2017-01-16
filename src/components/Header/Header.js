@@ -18,7 +18,7 @@ export const Header = () => (
             <span className="icon-bar"></span>
         </button>
 
-        <IndexLink to="/" className="navbar-brand">
+        <IndexLink to="/" className="navbar-brand" activeClassName="active">
           <img src={AppLogo} width="60" alt="React Case &amp; Cabane" />
         </IndexLink>
       </div>
@@ -77,9 +77,11 @@ export const Header = () => (
           <li><a href="#">Portofoliu</a></li>
           <li><a href="#">Produse</a></li>
           <li>
+            {/*
             <Link to="/contact" activeClassName="active">
               Contact
             </Link>
+            */}
           </li>
         </ul>
       </div>
