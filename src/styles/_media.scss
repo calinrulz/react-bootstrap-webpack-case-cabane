@@ -1,0 +1,10 @@
+/*
+** MEDIA QUERIES
+*/
+@media screen and (min-width: 768px) {
+  .cabane-portfolio-carousel-component{
+    .carousel-indicators {
+      bottom: -15px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.cabane-contact-container {
+  padding: 3rem 0;
+  font-size: 1.6em;
+  h3 {
+    color: #f15c22;
+    font-size: 2.6em;
+    font-weight: 200;
+    .bold-text {
+      font-weight: 700;
+    }
+  }
+  p {
+    font-size: 1.4em;
+  }
+  // Contact Form Section
+  .btn-send {
+    background-color: #f15c22;
+    color: white;
+  }
+  // Right Side
+  hr.tall {
+    margin: 3rem 0;
+    background-image: linear-gradient(90deg, transparent, #dbdbdb, transparent);
+    border: 0;
+    height: 1px;
+  }
+  .get-in-touch-02 {
+    ul {
+      list-style: none;
+      font-size: 1.4em;
+      padding: 0;
+      li {
+        position: relative;
+        padding-left: 3rem;
+        line-height: 3.6rem;
+      }
+      i.fa {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        background-color: #f15c22;
+        color: white;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        padding: 5px;
+      }
+    }
+  }
+}
