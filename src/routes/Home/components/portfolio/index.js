@@ -1,3 +1,3 @@
-import PortfolioComponent from './PortfolioComponent';
+import PortfolioComponent from './PortfolioComponent'
 
-export default PortfolioComponent;
+export default PortfolioComponent

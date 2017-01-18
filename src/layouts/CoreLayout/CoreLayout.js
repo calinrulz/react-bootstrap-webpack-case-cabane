@@ -1,16 +1,16 @@
-import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import React from 'react'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 // Component Styles
-import './CoreLayout.scss';
-import '../../styles/core.scss';
+import './CoreLayout.scss'
+import '../../styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
-  <div className="cabane-main-container">
+  <div className='cabane-main-container'>
     <Header />
 
-    {children}
+    { children }
 
     <Footer />
   </div>
@@ -18,6 +18,11 @@ export const CoreLayout = ({ children }) => (
 
 CoreLayout.PropTypes = {
   children : React.PropTypes.element.isRequired
+  // children: React.PropTypes.node
+  // children: React.PropTypes.oneOfType([
+  //   React.PropTypes.arrayOf(React.PropTypes.node),
+  //   React.PropTypes.node
+  // ])
 }
 
-export default CoreLayout;
+export default CoreLayout

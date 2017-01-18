@@ -1,3 +1,3 @@
-import FeaturesComponent from './FeaturesComponent';
+import FeaturesComponent from './FeaturesComponent'
 
-export default FeaturesComponent;
+export default FeaturesComponent
