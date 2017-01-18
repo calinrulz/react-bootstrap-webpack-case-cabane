@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
 // Component Styles
-import './HomeView.scss';
+import './HomeView.scss'
 
-import Carousel from '../components/carousel/CarouselComponent';
-import Features from '../components/features/FeaturesComponent';
-import About from '../components/about/AboutComponent';
-import PortfolioShow from '../components/portfolio/PortfolioComponent';
-import Newsfeed from '../components/newsfeed/NewsfeedComponent';
+import Carousel from '../components/carousel/CarouselComponent'
+import Features from '../components/features/FeaturesComponent'
+import About from '../components/about/AboutComponent'
+import PortfolioShow from '../components/portfolio/PortfolioComponent'
+import Newsfeed from '../components/newsfeed/NewsfeedComponent'
 
 export const HomeView = () => (
-  <div className="cabane-content-container">
+  <div className='cabane-content-container'>
     <Carousel />
     <Features />
     <About />
@@ -19,4 +19,4 @@ export const HomeView = () => (
   </div>
 )
 
-export default HomeView;
+export default HomeView

@@ -1,3 +1,3 @@
-import CarouselComponent from './CarouselComponent';
+import CarouselComponent from './CarouselComponent'
 
-export default CarouselComponent;
+export default CarouselComponent

@@ -1,3 +1,3 @@
-import NewsfeedComponent from './NewsfeedComponent';
+import NewsfeedComponent from './NewsfeedComponent'
 
-export default NewsfeedComponent;
+export default NewsfeedComponent
