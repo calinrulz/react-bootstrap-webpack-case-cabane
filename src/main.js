@@ -3,6 +3,20 @@ import ReactDOM from 'react-dom'
 import createStore from './store/createStore'
 import AppContainer from './containers/AppContainer'
 
+// Import Firebase
+import * as firebase from 'firebase'
+
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyDgbnjTomUht1w924yC8P5NiuRdwlA2m0c",
+  authDomain: "case-cabane.firebaseapp.com",
+  databaseURL: "https://case-cabane.firebaseio.com",
+  storageBucket: "case-cabane.appspot.com",
+  messagingSenderId: "1049956868119"
+}
+
+firebase.initializeApp(config)
+
 // ========================================================
 // Store Instantiation
 // ========================================================
