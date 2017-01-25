@@ -1,34 +1,37 @@
-import React from 'react';
-import axios from 'axios';
+import React from 'react'
+import axios from 'axios'
+
+// Firebase
+import * as firebase from 'firebase'
 
 class FetchEachComponent extends React.Component {
-  constructor(props) {
-    super(props);
-
+  constructor() {
+    super()
     this.state = {
-      posts: []
-    };
+      speed: 10
+    }
   }
 
   componentDidMount() {
-    axios.get(`https://api.github.com/users/${this.props.username}`)
-      .then(res => {
-        const posts = res.data;
+    const rootRef = firebase.database().ref()
+    const speedRef = rootRef.child('speed')
 
-        this.setState({ posts });
-      });
+    speedRef.on('value', snap => {
+      console.log(snap.val())
+      
+      this.setState({
+        speed: snap.val()
+      })
+    })
   }
 
   render () {
     return(
       <div>
-        <h1>{this.props.username}</h1>
-        <ul>
-          <li key={this.state.posts.id}>{this.state.posts.name}</li>
-        </ul>
+        <h1>{this.state.speed}</h1>
       </div>
-    );
+    )
   }
-};
+}
 
-export default FetchEachComponent;
+export default FetchEachComponent
