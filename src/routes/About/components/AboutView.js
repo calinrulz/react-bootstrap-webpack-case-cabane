@@ -8,7 +8,7 @@ import './AboutView.scss'
 
 export const AboutView = () => (
   <div className='cabane-content-container'>
-    <BreadcrumbsComponent breadcrumbName='About Us' />
+    <BreadcrumbsComponent breadcrumbName='Despre Noi' />
     <ContentComponent />
   </div>
 )

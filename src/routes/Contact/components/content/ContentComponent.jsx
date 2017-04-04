@@ -52,19 +52,19 @@ class ContentComponent extends React.Component {
                   <li>
                     <i className="fa fa-map-marker"></i>
                     <strong>Adresa: </strong>
-                    1234 Nume strada, Giurgiu, Romania
+                    Strada Balanoaiei 2, Giurgiu, Romania
                   </li>
 
                   <li>
                     <i className="fa fa-phone"></i>
                     <strong>Telefon: </strong>
-                    +40 (712) 123-456
+                    +40 (760) 500 241
                   </li>
 
                   <li>
                     <i className="fa fa-envelope"></i>
                     <strong>E-mail: </strong>
-                    <a href="mailto:mail@mail.com">mail@mail.com</a>
+                    <a href="mailto:office@ecasesicabane.ro">office@ecasesicabane.ro</a>
                   </li>
                 </ul>
               </div>

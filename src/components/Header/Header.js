@@ -81,11 +81,9 @@ export const Header = () => (
             </a>
 
             <ul className='dropdown-menu'>
-              <li><a href='#'>Action</a></li>
-              <li><a href='#'>Another action</a></li>
-              <li><a href='#'>Something else here</a></li>
-              <li role='separator' className='divider' />
-              <li><a href='#'>Separated link</a></li>
+              <li><a href='#'>Gama Rustica</a></li>
+              <li><a href='#'>Gama Clasica</a></li>
+              <li><a href='#'>Gama Moderna</a></li>
             </ul>
           </li>
           <li><a href='#'>Portofoliu</a></li>
