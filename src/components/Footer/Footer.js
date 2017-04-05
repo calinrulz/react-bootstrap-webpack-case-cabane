@@ -45,20 +45,20 @@ export const Footer = () => (
             <div className='contact-info'>
               <p>
                 <span className='glyphicon glyphicon-map-marker case-footer-glyphicon' aria-hidden='true' />
-                <span><strong>Adresa:</strong> Str. Caselor, nr.12, Giurgiu, Romania</span>
+                <span><strong>Adresa:</strong> Strada Balanoaiei 2, Giurgiu, Romania</span>
               </p>
 
               <p>
                 <span className='glyphicon glyphicon-phone case-footer-glyphicon' aria-hidden='true' />
-                <span><strong>Telefon:</strong> (123) 456-789</span>
+                <span><strong>Telefon:</strong> +40 (760) 500 241</span>
               </p>
 
               <p>
                 <span className='glyphicon glyphicon-envelope case-footer-glyphicon' aria-hidden='true' />
                 <span>
                   <strong>Email: </strong>
-                  <a href='mailto:mail@example.com' target='_top'>
-                    mail@example.com
+                  <a href='mailto:office@ecasesicabane.ro' target='_top'>
+                    office@ecasesicabane.ro
                   </a>
                 </span>
               </p>
@@ -69,7 +69,7 @@ export const Footer = () => (
             <h5>Urmareste-ne</h5>
 
             <div className='footer-social-buttons'>
-              <a href='#' className='facebook-btn sm-global-btn' />
+              <a href='https://www.facebook.com/Case-si-Cabane-301500430038217/' target='_blank' className='facebook-btn sm-global-btn' />
               <a href='#' className='twitter-btn sm-global-btn' />
               <a href='#' className='googleplus-btn sm-global-btn' />
             </div>
