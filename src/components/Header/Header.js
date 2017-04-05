@@ -43,7 +43,7 @@ export const Header = () => (
 
           <li className='case-nav-phone'>
             <span className='glyphicon glyphicon-phone glyphicon-right-arrow' />
-            <span className='case-phone-number'>(123) 456 789</span>
+            <span className='case-phone-number'>+40 (760) 500 241</span>
           </li>
         </ul>
 
