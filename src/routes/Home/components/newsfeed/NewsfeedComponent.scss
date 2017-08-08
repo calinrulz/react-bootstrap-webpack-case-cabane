@@ -20,17 +20,25 @@
     position: relative;
     width: 100%;
     height: 100%;
+
+    .uploaded-image {
+      width: 40%;
+      height: auto;
+    }
   }
   .latest-newsfeed-date-container {
     position: relative;
     padding: 0 30px;
+
     .row {
       height: 7rem;
     }
+
     .date-container {
       position: absolute;
       display: block;
       text-align: center;
+
       .day-container {
         display: block;
         font-size: 1.4em;
@@ -38,6 +46,7 @@
         padding: 1rem;
         background-color: white;
       }
+
       .month-container {
         display: block;
         font-weight: 300;
@@ -54,6 +63,7 @@
       width: 77%;
       height: 100%;
       font-size: 1.6em;
+
       a {
         position: relative;
         display: block;
