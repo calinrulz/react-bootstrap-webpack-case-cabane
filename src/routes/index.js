@@ -2,6 +2,7 @@
 import CoreLayout from '../layouts/CoreLayout/CoreLayout'
 import Home from './Home'
 import AboutRoute from './About'
+import PortfolioRoute from './Portfolio'
 import ContactRoute from './Contact'
 
 /*  Note: Instead of using JSX, we recommend using react-router
@@ -13,6 +14,7 @@ export const createRoutes = (store) => ({
   indexRoute  : Home,
   childRoutes : [
     AboutRoute(store),
+    PortfolioRoute(store),
     ContactRoute(store)
   ]
 })

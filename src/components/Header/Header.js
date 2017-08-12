@@ -86,8 +86,15 @@ export const Header = () => (
               <li><a href='#'>Gama Moderna</a></li>
             </ul>
           </li>
-          <li><a href='#'>Portofoliu</a></li>
+
+          <li>
+            <Link to='/portfolio' activeClassName='active'>
+              Portofoliu
+            </Link>
+          </li>
+
           <li><a href='#'>Produse</a></li>
+
           <li>
             <Link to='/contact' activeClassName='active'>
               Contact
