@@ -33,7 +33,7 @@ class ContentComponent extends React.Component {
               Object.keys(this.state.imagePath).map((key, index) => {
                 return (
                   <div className='col-md-4' key={index}>
-                    <img src={this.state.imagePath[key]} alt='' className='image-thumbnail uploaded-image' />
+                    <img src={this.state.imagePath[key]} alt='' className='img-thumbnail uploaded-image' />
                   </div>
                 )
               })
