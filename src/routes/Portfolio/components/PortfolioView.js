@@ -8,7 +8,7 @@ import './PortfolioView.scss'
 
 export const ContactView = () => (
   <div className='cabane-content-container'>
-    <BreadcrumbsComponent breadcrumbName='Contact' />
+    <BreadcrumbsComponent breadcrumbName='Portfolio' />
     <ContentComponent />
   </div>
 )

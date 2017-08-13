@@ -5,14 +5,15 @@ import axios from 'axios'
 import * as firebase from 'firebase'
 
 class FetchEachComponent extends React.Component {
-  constructor() {
+  constructor () {
     super()
     this.state = {
-      speed: 10
+      speed: 10,
+      imagePath: ''
     }
   }
 
-  componentDidMount() {
+  componentDidMount () {
     const rootRef = firebase.database().ref()
     const speedRef = rootRef.child('speed')
     const imageRef = rootRef.child('imageRef').child('url')
