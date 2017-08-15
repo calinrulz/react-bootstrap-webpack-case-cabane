@@ -69,7 +69,8 @@ export const Footer = () => (
             <h5>Urmareste-ne</h5>
 
             <div className='footer-social-buttons'>
-              <a href='https://www.facebook.com/Case-si-Cabane-301500430038217/' target='_blank' className='facebook-btn sm-global-btn' />
+              <a href='https://www.facebook.com/Case-si-Cabane-301500430038217/'
+                target='_blank' className='facebook-btn sm-global-btn' />
               <a href='#' className='twitter-btn sm-global-btn' />
               <a href='#' className='googleplus-btn sm-global-btn' />
             </div>

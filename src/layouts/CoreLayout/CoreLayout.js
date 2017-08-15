@@ -10,7 +10,7 @@ export const CoreLayout = ({ children }) => (
   <div className='cabane-main-container'>
     <Header />
 
-    { children }
+    {children}
 
     <Footer />
   </div>
